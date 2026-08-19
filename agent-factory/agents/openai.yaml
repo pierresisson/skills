@@ -1,0 +1,6 @@
+interface:
+  display_name: "Agent Factory"
+  short_description: "Route work to a focused subagent team"
+  default_prompt: "Use $agent-factory to delegate this task to a cost-aware team and synthesize the verified result."
+policy:
+  allow_implicit_invocation: false
